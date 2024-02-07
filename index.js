@@ -278,7 +278,27 @@ const perguntas = [
         "Definir a ordem de empilhamento de elementos"
       ],
       correta: 0
-    }
+    },
+    {
+        pergunta: "Qual é a propriedade CSS usada para alterar o estilo de uma lista de itens?",
+        respostas: [
+          "list-style",
+          "list-type",
+          "list-decoration",
+          "list-item-style"
+        ],
+        correta: 0
+      },
+      {
+        pergunta: "Qual é a função do método 'querySelector' em JavaScript?",
+        respostas: [
+          "Selecionar elementos pelo nome da tag",
+          "Selecionar elementos pelo ID",
+          "Selecionar elementos pelo nome da classe",
+          "Selecionar elementos pelo valor do atributo"
+        ],
+        correta: 3
+      }
   ];
   
   
