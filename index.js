@@ -1,95 +1,206 @@
 const perguntas = [
     {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+      pergunta: "Quem é o capitão dos Chapéus de Palha?",
       respostas: [
-        "const myVar = 10;",
-        "var myVar = 10;",
-        "let myVar = 10;",
+        "Monkey D. Luffy",
+        "Roronoa Zoro",
+        "Nami",
+        "Trafalgar D. Water Law"
       ],
       correta: 0
     },
     {
-      pergunta: "O que o operador '===' faz em JavaScript?",
+      pergunta: "Qual é o nome do arquipélago onde está localizado o quartel-general da Marinha?",
       respostas: [
-        "Compara valores e tipos de dados com coerção",
-        "Compara apenas valores, sem considerar tipos",
-        "Compara valores e tipos de dados sem coerção",
+        "Arquipélago Sabaody",
+        "Arquipélago Boin",
+        "Arquipélago Shabondy",
+        "Arquipélago Marineford"
       ],
       correta: 2
     },
     {
-      pergunta: "Qual é a função do método 'querySelector'?",
+      pergunta: "Quem é o espadachim da tripulação dos Chapéus de Palha?",
       respostas: [
-        "Selecionar elementos pelo ID",
-        "Selecionar elementos pelo nome da tag",
-        "Selecionar elementos pelo nome da classe",
+        "Roronoa Zoro",
+        "Sanji",
+        "Usopp",
+        "Franky"
       ],
       correta: 0
     },
     {
-      pergunta: "Como se declara uma função em JavaScript?",
+      pergunta: "Qual é o nome do irmão de Luffy que se tornou um almirante da Marinha?",
       respostas: [
-        "let minhaFuncao = function() {}",
-        "const minhaFuncao = () => {}",
-        "function minhaFuncao() {}",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um modelo de objetos para representar documentos HTML",
-        "Uma linguagem de programação",
-        "Um método para declarar variáveis",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a finalidade do comando 'return' em uma função?",
-      respostas: [
-        "Declarar uma variável local",
-        "Retornar um valor da função",
-        "Encerrar a execução da função",
+        "Portgas D. Ace",
+        "Sabo",
+        "Gol D. Roger",
+        "Monkey D. Dragon"
       ],
       correta: 1
     },
     {
-      pergunta: "O que é o conceito de 'hoisting' em JavaScript?",
+      pergunta: "Quem é o cozinheiro da tripulação dos Chapéus de Palha?",
       respostas: [
-        "O processo de mover declarações para o topo do escopo",
-        "Uma técnica de animação de elementos HTML",
-        "Uma forma de manipulação de strings",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "'let' permite reatribuição, enquanto 'const' cria variáveis imutáveis",
-        "'let' e 'const' são intercambiáveis, não há diferença",
-        "'const' é usado para variáveis que nunca serão reatribuídas, enquanto 'let' é usado para variáveis que podem ser reatribuídas",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é um evento em JavaScript?",
-      respostas: [
-        "Uma ação desencadeada pelo usuário ou pelo navegador",
-        "Uma função assíncrona",
-        "Uma variável global",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a principal diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "'undefined' é usado para valores nulos, enquanto 'null' é usado para valores não nulos",
-        "Não há diferença significativa entre 'null' e 'undefined'",
-        "'null' representa a ausência de valor atribuído intencionalmente, enquanto 'undefined' representa a ausência de valor não intencional",
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Brook"
       ],
       correta: 2
     },
+    {
+      pergunta: "Qual é o sonho de Luffy?",
+      respostas: [
+        "Ser o melhor espadachim do mundo",
+        "Encontrar o One Piece e se tornar o Rei dos Piratas",
+        "Criar um mapa completo do mundo",
+        "Descobrir o maior tesouro da história da humanidade"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem é o arqueólogo da tripulação dos Chapéus de Palha?",
+      respostas: [
+        "Nico Robin",
+        "Sanji",
+        "Brook",
+        "Franky"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do navio dos Chapéus de Palha?",
+      respostas: [
+        "Thousand Sunny",
+        "Going Merry",
+        "Red Force",
+        "Queen Mama Chanter"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do médico da tripulação dos Chapéus de Palha?",
+      respostas: [
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Tony Tony Chopper"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Qual é o nome da ilha onde Luffy e sua tripulação se encontram pela primeira vez?",
+      respostas: [
+        "Arquipélago Sabaody",
+        "Ilha dos Tritões",
+        "Vila Fuchsia",
+        "Ilha de Dawn"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Quem é conhecido como o 'Rei dos Piratas'?",
+      respostas: [
+        "Monkey D. Luffy",
+        "Gol D. Roger",
+        "Trafalgar D. Water Law",
+        "Kaido"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o nome do arquipélago onde Luffy começa sua jornada?",
+      respostas: [
+        "Arquipélago Sabaody",
+        "Arquipélago Boin",
+        "Arquipélago Shabondy",
+        "Arquipélago do Gourmet"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Qual é o nome da organização criminosa liderada por Donquixote Doflamingo?",
+      respostas: [
+        "Marinha",
+        "Baroque Works",
+        "Geração Milenar",
+        "Família Donquixote"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Quem é o atirador da tripulação dos Chapéus de Palha?",
+      respostas: [
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Brook"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o nome da irmã mais nova de Nami?",
+      respostas: [
+        "Vivi",
+        "Rebecca",
+        "Nojiko",
+        "Shirahoshi"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Quem é o líder dos Revolucionários?",
+      respostas: [
+        "Monkey D. Dragon",
+        "Gol D. Roger",
+        "Edward Newgate",
+        "Silvers Rayleigh"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do antigo navio dos Chapéus de Palha?",
+      respostas: [
+        "Thousand Sunny",
+        "Going Merry",
+        "Red Force",
+        "Queen Mama Chanter"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem é o carpinteiro da tripulação dos Chapéus de Palha?",
+      respostas: [
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Franky"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Qual é o nome do arquipélago onde Luffy aprendeu técnicas de artes marciais?",
+      respostas: [
+        "Arquipélago Sabaody",
+        "Arquipélago Boin",
+        "Arquipélago Shabondy",
+        "Arquipélago Rusukaina"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Qual é o nome do antigo companheiro de Luffy que morreu na batalha contra a Marinha?",
+      respostas: [
+        "Portgas D. Ace",
+        "Sabo",
+        "Gol D. Roger",
+        "Shanks"
+      ],
+      correta: 0
+    }
   ];
+  
   
   const quiz = document.querySelector('#quiz');
   const template = document.querySelector('template');
