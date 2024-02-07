@@ -205,6 +205,82 @@ const perguntas = [
         "Adição",
         "Subtração",
         "Incremento",
+        "Decremento"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual propriedade CSS é usada para definir a cor das bordas de um elemento?",
+      respostas: [
+        "border-color",
+        "border-style",
+        "border",
+        "border-width"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "O que é o DOM em JavaScript?",
+      respostas: [
+        "Uma linguagem de programação",
+        "Um modelo de objetos para representar documentos HTML",
+        "Um método para declarar variáveis",
+        "Uma técnica de animação"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o conceito de 'cascata' em CSS?",
+      respostas: [
+        "Uma técnica para animar elementos HTML",
+        "Uma forma de manipular eventos do usuário",
+        "Um modelo de layout responsivo",
+        "A aplicação de estilos a um elemento baseado em sua posição na hierarquia do documento e em outras regras de estilo"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "Qual é a função da propriedade 'display' em CSS?",
+      respostas: [
+        "Controlar a visibilidade de um elemento",
+        "Controlar a transparência de um elemento",
+        "Controlar o tamanho de um elemento",
+        "Controlar como um elemento é exibido no layout"
+      ],
+      correta: 3
+    },
+    {
+      pergunta: "O que é um evento em JavaScript?",
+      respostas: [
+        "Uma função assíncrona",
+        "Uma ação desencadeada pelo usuário ou pelo navegador",
+        "Uma variável global",
+        "Uma expressão regular"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
+      respostas: [
+        "'null' representa a ausência de valor atribuído intencionalmente, enquanto 'undefined' representa a ausência de valor não intencional",
+        "'undefined' é usado para valores nulos, enquanto 'null' é usado para valores não nulos",
+        "Não há diferença significativa entre 'null' e 'undefined'",
+        "'null' representa valores indefinidos, enquanto 'undefined' representa valores nulos"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é a função da propriedade 'position' em CSS?",
+      respostas: [
+        "Definir a posição de um elemento no layout",
+        "Definir a cor de fundo de um elemento",
+        "Definir a margem interna de um elemento",
+        "Definir a ordem de empilhamento de elementos"
+      ],
+      correta: 0
+    }
+  ];
+  
   
   
   const quiz = document.querySelector('#quiz');

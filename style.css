@@ -11,10 +11,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --cor-de-fundo: #222831;
+  --cor-borda-1: #393E46;
+  --cor-borda-2: #00ADB5;
+  --cor-fundo-perguntas: #393E46;
+  --cor-texto-corpo: #EFECEC;
+  --cor-footer: #00ADB5;
+
 }
 
 body {
-  background-color: #0F172A;
+  background-color: var(--cor-de-fundo);
 }
 
 main {
@@ -26,13 +34,13 @@ main {
 header {
   margin-top: 64px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #334155;
+  border-bottom: 1px solid var(--cor-borda-1);
 }
 
 header h1 {
   margin-top: 24px;
   font-size: 30px;
-  color: #F1F5F9;
+  color: var(--cor-texto-corpo);
 }
 
 #quiz {
@@ -41,7 +49,7 @@ header h1 {
 
 .quiz-item {
   margin-top: 24px;
-  border: 1px solid #475569;
+  border: 1px solid var(--cor-borda-2);
   border-radius: 6px;
 
   overflow: hidden;
@@ -49,19 +57,19 @@ header h1 {
 
 .quiz-item h3 {
   padding: 16px 20px;
-  color: #E2E8F0;
+  color: var(--cor-texto-corpo);
   display: flex;
   align-items: center;
   gap: 12px;
 
-  background-color: #1E293B;
+  background-color: var(--cor-fundo-perguntas);
 }
 
 .quiz-item h3:before {
   counter-increment: quiz-item;
   content: counter(quiz-item);
 
-  background-color: #475569;
+  background-color: var(--cor-borda-2);
   width: 28px;
   height: 28px;
   font-size: 12px;
@@ -87,12 +95,12 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #E2E3F0;
+  color: var(--cor-texto-corpo);
 }
 
 input {
   all: unset;
-  border: 1px solid #94A3B8;
+  border: 1px solid var(--cor-borda-1);
   width: 16px;
   height: 16px;
 
@@ -105,20 +113,20 @@ input {
 }
 
 input:checked {
-  border: 1px solid #A3E635;
+  border: 1px solid var(--cor-footer);
 }
 
 input:checked:before {
   content: "";
   width: 10px;
   height: 10px;
-  background-color: #A3E635;
+  background-color: var(--cor-footer);
   border-radius: 50%;
 }
 
 #acertos {
   text-align: center;
-  background-color: #A3E635;
+  background-color: var(--cor-footer);
   position: fixed;
   bottom: 0;
   left: 0;
