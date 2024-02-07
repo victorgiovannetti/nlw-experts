@@ -65,9 +65,9 @@ const perguntas = [
         "let myVar = 10;",
         "const myVar = 10;",
         "var myVar = 10;",
-        "variable myVar = 10;"
+        "Todas as alternativas acima estão corretas"
       ],
-      correta: 2
+      correta: 3
     },
     {
       pergunta: "Qual propriedade CSS é usada para definir a altura de um elemento?",
@@ -280,24 +280,24 @@ const perguntas = [
       correta: 0
     },
     {
-        pergunta: "Qual é a propriedade CSS usada para alterar o estilo de uma lista de itens?",
+        pergunta: "Qual é o principal objetivo da técnica 'box-shadow' em CSS?",
         respostas: [
-          "list-style",
-          "list-type",
-          "list-decoration",
-          "list-item-style"
+          "Alterar a cor de fundo de um elemento",
+          "Adicionar uma sombra ao redor de um elemento",
+          "Definir a margem interna de um elemento",
+          "Criar uma borda personalizada para um elemento"
         ],
-        correta: 0
+        correta: 1
       },
       {
-        pergunta: "Qual é a função do método 'querySelector' em JavaScript?",
+        pergunta: "Qual é o método JavaScript usado para converter uma string em um número inteiro?",
         respostas: [
-          "Selecionar elementos pelo nome da tag",
-          "Selecionar elementos pelo ID",
-          "Selecionar elementos pelo nome da classe",
-          "Selecionar elementos pelo valor do atributo"
+          "parseInt()",
+          "toFloat()",
+          "number()",
+          "convertToInt()"
         ],
-        correta: 3
+        correta: 0
       }
   ];
   
